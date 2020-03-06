@@ -1,17 +1,16 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          YGLENA
+description:    "Testing"
 baseurl:        ""
-url:            "https://chesterhow.github.io"
+url:            "https://yglena.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         YGLENA
+  twitter:      YGLENA
 
 # Build settings
 markdown:       kramdown
