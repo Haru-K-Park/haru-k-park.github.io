@@ -4,7 +4,8 @@
     color: $default-color;
     display: block;
     padding: 2rem 0;
-
+    text-decoration: none;
+    
     &:hover .catalogue-line,
     &:focus .catalogue-line {
       width: 5rem;
