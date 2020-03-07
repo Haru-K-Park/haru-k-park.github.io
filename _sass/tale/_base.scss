@@ -36,8 +36,12 @@ h6 {
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
+  color: $default-color;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: .6
 }
 
 blockquote {
