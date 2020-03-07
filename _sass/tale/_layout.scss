@@ -101,4 +101,7 @@ footer {
     color: $default-color;
     text-decoration: underline;
   }
+  a:hover {
+    opacity: .6
+  }
 }
