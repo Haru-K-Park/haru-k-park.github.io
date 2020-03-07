@@ -32,10 +32,14 @@
     text-align: justify;
   }
 
-//  a:hover {
-//    text-decoration: underline;
-//  }
+  a {
+    color: $default-color;
+    text-decoration: underline;
+  }
 
+  a:hover {
+    opacity: .6
+  }
   img {
     margin: 0 auto 0.5rem;
   }
