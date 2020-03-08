@@ -4,11 +4,8 @@ layout: default
 
 <div class="catalogue">
   <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-    window.MathJax = {
-      loader: {load: ['[tex]/amsCd']},
-      tex: {packages: {'[+]': ['amsCd']}}
-    };
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}},loader: {load: ['[tex]/amsCd']},
+      tex: {packages: {'[+]': ['amsCd']}});
   </script>
   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
   {% for post in paginator.posts %}
