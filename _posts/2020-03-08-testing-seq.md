@@ -11,8 +11,6 @@ $$
   @.  A'  @> > >  B'  @>p> > C' @> > > 0\\
 @.      @VfVV       @VgVV      @VhVV       @.
 0 @> > >  A   @>i> >  B   @> > > C  @. 
-@VcVbV @VbVcV\\
-C @>d> > D
 \end{CD}
 $$
 </div>
