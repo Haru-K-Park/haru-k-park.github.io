@@ -23,12 +23,12 @@ $$
 \end{CD}
 $$
 
-더 나아가서, $A'\rightarrow B'$이 단사<sup>monic<\sup>이면 $\mathrm{Ker}(f)\rightarrow \mathrm{Ker}(g)$도 단사이고, $B\rightarrow C$가 전사<sup>epic<\sup>이면 $\mathrm{coKer}(g)\rightarrow \mathrm{coKer}(h)$도 전사이다.
+더 나아가서, $A'\rightarrow B'$이 단사<sup>monic</sup>이면 $\mathrm{Ker}(f)\rightarrow \mathrm{Ker}(g)$도 단사이고, $B\rightarrow C$가 전사<sup>epic</sup>이면 $\mathrm{coKer}(g)\rightarrow \mathrm{coKer}(h)$도 전사이다.
 
 # 증명
 프레이드-미첼 매장 정리<sup>Freyd-Mitchell embedding theorem</sup>에 의하여, $\mathcal{C}$가 $R-\textrm{mod}$인 경우만을 증명하면 된다. $R-\textrm{mod}$의 경우 그림을 따라가며 증명할 수 있다.
 
-$\partial=i^{-1}\circ g\circ p^{-1}$로 두고, $c'\in \mathrm{Ker}(h)$를 잡는다. $h(c')=0$이므로 $g\circ p^{-1}(c')\in \mathrm{Ker}(B\rightarrow C)=\mathrm{Im}(A\rightarrow B)$이다. $i$가 단사 함수<sup>injective</sup>이므로 $i^{-1}\circ g\circ p^{-1}(c')$은 존재한다. $p(b)=p(b')=c$라 하면, $p(b-b')=0$이므로, $A'\rightarrow B'$가 $a$를 $b-b'$로 보내는 $a\in A'$가 존재한다. 그림의 가환성으로 $f(a)=i^{-1}\circ g(b-b')$임을 알 수 있고, 이는 $\mathrm{coKer}(A)$에서 0이므로 $\partial$은 잘 정의된다.
+$\partial=i^{-1}\circ g\circ p^{-1}$로 두고, $c'\in \mathrm{Ker}(h)$를 잡는다. $h(c')=0$이므로 $g\circ p^{-1}(c')\in\mathrm{Im}(A\rightarrow B)$이다. $i$가 단사 함수<sup>injective</sup>이므로 $i^{-1}\circ g\circ p^{-1}(c')$은 존재한다. $p(b)=p(b')=c$라 하면, $p(b-b')=0$이므로, $A'\rightarrow B'$가 $a$를 $b-b'$로 보내는 $a\in A'$가 존재한다. 그림의 가환성으로 $f(a)=i^{-1}\circ g(b-b')$임을 알 수 있고, 이는 $\mathrm{coKer}(A)$에서 0이므로 $\partial$은 잘 정의된다.
 
 이제 위의 열이 $\mathrm{Ker}(h)$와 $\mathrm{coKer}(f)$에서 완전열이 됨을 보이면 되고, 이 둘은 쌍대 관계에 있으므로 하나만 증명하면 된다. $c\in \mathrm{Ker}(\partial)$이면 $g\circ p^{-1}(c)=0$이고, $b\in p^{-1}(c)$일 때 $b\in \mathrm{Ker}(g)$이고 $p(b)=c$이므로 $c\in \mathrm{Im}(\mathrm{Ker}(g)\rightarrow \mathrm{Ker}(h))$이다. 반대로 $c\in \mathrm{Im}(\mathrm{Ker}(g)\rightarrow \mathrm{Ker}(h))$이고 $b\in \mathrm{Ker}(g)$가 $p(b)=c$를 만족시킬 때, $i^{-1}\circ g\circ p^{-1}(c)=i^{-1}\circ g(b)=i^{-1}(0)=0$이다.
 
