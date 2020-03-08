@@ -29,11 +29,11 @@ $$
 \require{AMScd}\begin{CD}
 0 @> > > A_\bullet @>\alpha> > B_\bullet @>\beta> > C_\bullet @> > > 0
 \end{CD}
-$$
+$$<br>
 에 대한 호몰로지 긴 완전열<sup>homology long exact sequence</sup><br>
 $$
 \require{AMScd}\begin{CD}
 \cdots @> > > H_{n+1}(C) @>\partial> > H_n(A) @>\alpha_{*}> > H_n(B) @>\beta_{*}> > H_n(C) @>\partial> > H_{n-1}(A)@> > > \cdots
 \end{CD}
-$$
+$$<br>
 의 존재성을 증명하는 데 사용된다.
