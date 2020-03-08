@@ -5,7 +5,7 @@ author: "YGLENA"
 ---
 $\require{AMScd}\begin{CD}
 A @>a>b> B \
-@VlVrV @alara \
+@VlVrV @VlVrV \
 C @< a < b< D
 \end{CD}$
 
