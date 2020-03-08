@@ -72,6 +72,6 @@ $$
 \end{CD}
 $$
 
-여기서 $i:A\cap B\hookrightarrow A$, $j:A\cap B\hookrightarrow B$, $k:A\hookrightarrow X$, $l:B\hookrightarrow X$이다. 이 긴 완전열을 마이어-비토리스 열<sup>Mayer-Vietoris sequence<\sup>라 한다.
+여기서 $i:A\cap B\hookrightarrow A$, $j:A\cap B\hookrightarrow B$, $k:A\hookrightarrow X$, $l:B\hookrightarrow X$이다. 이 긴 완전열을 마이어-비토리스 열<sup>Mayer-Vietoris sequence</sup>라 한다.
  
-$A\cap B$가 경로 연결 공간일 때, 마이어-비토리스 열에서 $H_1(X)\simeq H_1(A)\oplus H_1(B)/\mathrm{Im}(i_*,j_*)$를 얻는다. 이는 자이페르트-반 캄펀 정리<Seifert-van Kampen theorem>의 아벨화로 볼 수 있다.
+$A\cap B$가 경로 연결 공간일 때, 마이어-비토리스 열에서 $H_1(X)\simeq H_1(A)\oplus H_1(B)/\mathrm{Im}(i_*,j_*)$를 얻는다. 이는 자이페르트-반 캄펀 정리<sup>Seifert-van Kampen theorem</sup>의 아벨화로 볼 수 있다.
