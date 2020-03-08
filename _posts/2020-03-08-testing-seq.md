@@ -4,7 +4,7 @@ title: "뱀 보조정리"
 author: "YGLENA"
 ---
 # 정리
-_뱀 보조정리<sup>snake Lemma</sup>._ 아벨 범주<sup>Abelian category</sup> $\mathcal{C}$에 대하여 다음 그림이 가환<sup>commutative</sup>이라고 하자.
+**뱀 보조정리<sup>snake Lemma</sup>.** 아벨 범주<sup>Abelian category</sup> $\mathcal{C}$에 대하여 다음 그림이 가환<sup>commutative</sup>이라고 하자.
 
 $$
 \require{AMScd}\begin{CD}
