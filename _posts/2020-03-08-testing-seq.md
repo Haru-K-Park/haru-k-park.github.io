@@ -14,3 +14,8 @@ $$
 \end{CD}
 $$
 </div>
+
+그렇다면 다음이 완전열이다.
+$$
+\textrm{Ker}(f) @> > > \textrm{Ker}(g) @> > > \textrm{Ker}(h) @>\partial> > \textrm{coKer}(f) @> > > \textrm{coKer}(g) @> > > \textrm{coKer}(h)
+$$
