@@ -14,3 +14,9 @@ $$
 $\require{enclose} \enclose{circle}{x}$
 
 test test $x=y$ test test test
+
+<script type="text/tikz">
+  \begin{tikzpicture}
+    \draw (0,0) circle (1in);
+  \end{tikzpicture}
+</script>
