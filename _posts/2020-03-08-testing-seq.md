@@ -11,4 +11,4 @@ C @>d>> D
 \end{CD}
 $
 
-test test $x=y$ test test
+test test $x=y$ test test test
