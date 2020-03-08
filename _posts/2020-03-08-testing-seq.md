@@ -3,13 +3,11 @@ layout: post
 title: "가환도형 그리기"
 author: "YGLENA"
 ---
-$\require{AMScd}
-\begin{CD}
-A @>a>> B\\
-@VVbV @VVcV\\
-C @>d>> D
-\end{CD}
-$
+$\require{AMScd}\begin{CD}
+A @>a>b> B \
+@VlVrV @alara \
+C @< a < b< D
+\end{CD}$
 
 $\require{enclose} \enclose{circle}{x}$
 
