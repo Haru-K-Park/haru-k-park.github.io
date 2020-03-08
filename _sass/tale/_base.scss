@@ -1,5 +1,6 @@
 * {
   @include box-sizing;
+  line-height: 1.5;
 }
 
 html,
@@ -63,4 +64,8 @@ img {
 
 td {
   vertical-align: top;
+}
+
+.commdiag {
+  line-height: normal;
 }
