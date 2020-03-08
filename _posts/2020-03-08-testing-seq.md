@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "가환도형 그리기"
+title: "뱀 보조정리"
 author: "YGLENA"
 ---
 $$
