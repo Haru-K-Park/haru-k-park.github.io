@@ -4,9 +4,9 @@ title: "가환도형 그리기"
 author: "YGLENA"
 ---
 $\require{AMScd}\begin{CD}
-A @>a>b> B \\
-@VlVrV @VlVrV \\
-C @< a < b< D
+A @>a>> B\\
+@VVbV @VVcV\\
+C @>d>> D
 \end{CD}$
 
 $\require{enclose} \enclose{circle}{x}$
