@@ -5,9 +5,10 @@ layout: default
 <div class="catalogue">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-    loader: {load: ['[tex]/require']},
-    tex: {packages: {'[+]': ['require']}}})
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      loader: {load: ['[tex]/require']},
+      tex: {packages: {'[+]': ['require']}}
+    });
   </script>
   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
   {% for post in paginator.posts %}
