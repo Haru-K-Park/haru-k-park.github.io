@@ -9,7 +9,7 @@ author: "YGLENA"
 $$
 \require{AMScd}\begin{CD}
   @.  A'  @> > >  B'  @>p> > C' @> > > 0\\
-@.      @VfVV       @VgVV      @VhVV       @.
+@.      @VfVV       @VgVV      @VhVV       @.\\
 0 @> > >  A   @>i> >  B   @> > > C  @. 
 \end{CD}
 $$
