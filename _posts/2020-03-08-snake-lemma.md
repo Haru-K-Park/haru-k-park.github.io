@@ -39,7 +39,7 @@ $A'\rightarrow B'$가 단사이면 $a\mapsto 0$일 때 $a=0$이다. 따라서 $a
 
 $$
 \require{AMScd}\begin{CD}
-0 @> > > A_\bullet @>\alpha> > B_\bullet @>\beta> > C_\bullet @> > > 0
+0 @> > > A_\bullet @>f> > B_\bullet @>g> > C_\bullet @> > > 0
 \end{CD}
 $$
 
@@ -47,7 +47,7 @@ $$
 
 $$
 \require{AMScd}\begin{CD}
-\cdots @> > > H_{n+1}(C) @>\partial> > H_n(A) @>\alpha_{*}> > H_n(B) @>\beta_{*}> > H_n(C) @>\partial> > H_{n-1}(A)@> > > \cdots
+\cdots @> > > H_{n+1}(C) @>\partial> > H_n(A) @>f_{*}> > H_n(B) @>g_{*}> > H_n(C) @>\partial> > H_{n-1}(A)@> > > \cdots
 \end{CD}
 $$
 
