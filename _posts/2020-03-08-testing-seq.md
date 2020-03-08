@@ -5,6 +5,7 @@ author: "YGLENA"
 ---
 아벨 범주 $\mathcal{C}$에 대하여 다음 그림이 가환이라고 하자.
 
+<div class="commdiag">
 $$
 \require{AMScd}\begin{CD}
   @.  A'  @> > >  B'  @>p> > C' @> > > 0\\
@@ -14,3 +15,4 @@ $$
 C @>d> > D
 \end{CD}
 $$
+</div>
