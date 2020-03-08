@@ -11,4 +11,4 @@ C @>d>> D
 
 $\require{enclose} \enclose{circle}{x}$
 
-test test $x=y$ test test test
+test test $x=y$ test test test HELP
