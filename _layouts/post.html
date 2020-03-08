@@ -29,7 +29,7 @@ layout: default
   {% include disqus_comments.html %}
 {% endif %}
 
-<div class="pagenavigation">
+<div class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="right arrow">{{page.next.title}} &#8594;</a>
   {% endif %}
