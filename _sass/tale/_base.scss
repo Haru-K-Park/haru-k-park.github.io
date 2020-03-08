@@ -1,6 +1,5 @@
 * {
   @include box-sizing;
-  line-height: 1.5;
 }
 
 html,
@@ -14,9 +13,10 @@ html {
   font-family: $serif-primary;
   font-size: 14px;
   overflow-y: scroll;
-
+  line-height: 1.5;
   @media (min-width: 600px) {
     font-size: 16px;
+    
   }
 }
 
