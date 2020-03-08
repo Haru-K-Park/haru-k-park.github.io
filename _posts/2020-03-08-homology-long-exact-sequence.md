@@ -68,7 +68,7 @@ $$
 
 $$
 \require{AMScd}\begin{CD}
-\cdots @> > > H_{n+1}(X) @>\partial> > H_n(A\cap B) @>(i_{*},j_*)> > H_n(A)\oplus H_n(B) @>k_*-l_*> > H_n(X) @>\partial> > H_{n-1}(A\cap B)@> > > \cdots
+\cdots @> > > H_{n+1}(X) @>\partial> > H_n(A\cap B) @>(i_{*},j_*)> > H_n(A)\oplus H_n(B) @>k_*-l_*> > H_n(X) @>\partial> >\cdots
 \end{CD}
 $$
 
