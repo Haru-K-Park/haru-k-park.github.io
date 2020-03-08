@@ -44,4 +44,7 @@ $$
 
 의 존재성을 증명하는 데 사용된다.
 
-# 
+# 참고
+뱀 보조정리라는 이름은, 얻어진 완전열이 뱀과 같은 모양을 가진다는 점에서 착안하여 이름붙여졌다. 트위터에 업로드한 [다음 그림](https://twitter.com/YGLENA/status/1156595340604108800)에서도 확인할 수 있다.
+
+1980년 미국 영화 [It's My Turn](https://www.imdb.com/title/tt0080936/)의 도입부에서  [뱀 보조정리의 정확한 증명이 소개되어 있다.](https://www.youtube.com/watch?v=etbcKWEKnvg) 이 영화에서 교수는 뱀 보조정리를 그림을 따라가며 정확하게 증명하고, 학생은 교수의 증명에서 착각하기 쉬운, 그러나 수학적으로 잘못되지 않은 부분을 지적한다. 이 사실은 C. A. Weibel의 [An introduction to homological algebra](https://doi.org/10.1017/CBO9781139644136)에서도 언급된다.
