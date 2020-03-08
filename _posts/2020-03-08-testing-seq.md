@@ -5,9 +5,9 @@ author: "YGLENA"
 ---
 $\require{AMScd}$
 \begin{CD}
-\mathbb{Z}/p^n\mathbb{Z} @>{\theta_{n+1,\alpha}}>> U_1/U_{n+1}\\
-@VVV @VVV\\
-\mathbb{Z}/p^{n-1}\mathbb{Z} @>{\theta_{n,\alpha}}>> U_1/U_n
+A @>a>> B\\
+@VVbV @VVcV\\
+C @>d>> D
 \end{CD}
 
 test test $x=y$ test test
