@@ -10,11 +10,14 @@ comment: true
 임계 온도<sup>critical temperature</sup> $T_c$를 가지는 계에서 환산온도<sup>reduced temperature</sup>를 다음과 같이 쓰자.
 
 $$
+\require{mathtools}
 \tau\coloneqq \frac{T-T_c}{T_c}
 $$
 
 이 때 환산온도에 의존하는 물리량 $f(\tau)$의 임계 지수 $k$는 다음과 같이 정의된다.
+
 $$
+\require{mathtools}
 k\coloneqq \lim_{\tau\rightarrow 0}\frac{\log |f(\tau)|}{\log|\tau|}
 $$
 
@@ -41,6 +44,7 @@ $$
 여기서 $C$는 열용량<sup>heat capacity</sup>, $M$은 자화량<sup>magnetization</sup>, $\chi$는 감수율<sup>susceptibility</sup>, $G(x)$는 상관 함수<sup>correlation function</sup>이다. $D$는 계의 차원이다.
 
 재규격화 이론<sup>renormalization theory</sup>을 통해 임계 지수들 사이에 다음과 같은 관계가 성립함을 알 수 있다.
+
 $$
 \begin{align*}
 \alpha &= 2-\nu D\\
@@ -49,4 +53,5 @@ $$
 \delta & =\frac{D+2-\eta}{D-e+\eta}
 \end{align*}
 $$
+
 즉, 모든 임계 지수는 두 개의 임계 지수 $\eta,\nu$와 차원 $D$로부터 유도할 수 있다.
