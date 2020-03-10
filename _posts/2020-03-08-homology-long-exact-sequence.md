@@ -2,7 +2,7 @@
 layout: post
 title: "호몰로지 긴 완전열"
 author: "YGLENA"
-comment: true
+comments: true
 ---
 # 정리
 **호몰로지 긴 완전열<sup>Homology long exact sequence</sup>.** 아벨 범주<sup>Abelian category</sup> $\mathcal{C}$와 그 위의 사슬 복합체 범주 $\mathrm{Ch}_\bullet(\mathcal{C})$를 생각하자. 사슬 복합체 사이의 짧은 완전열
