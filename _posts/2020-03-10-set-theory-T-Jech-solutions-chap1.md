@@ -129,8 +129,8 @@ $$
 
 ### 풀이
 각각의 공리들이 부분 집합으로서의 존재성을 보증하고 있기 때문에, 분리 공리꼴을 이용하여 이들을 분리해내면 된다. 즉, 각각의 공리들에 대하여,
-- $\phi(y)$를 $\exists x\in X. y\in x$로 두고, $\union X=\\{y\in Y: \phi(y)\\}$로 둔다.
+- $\phi(y)$를 $\exists x\in X. y\in x$로 두고, $\cup X=\\{y\in Y: \phi(y)\\}$로 둔다.
 - $\phi(y)$를 $y\subset X$로 두고, $P(X)=\\{y\in Y: \phi(y)\\}$로 둔다.
-- $\phi(y)$를 $\exists x\in X. y=F(x)$로 두고, $\union X=\\{y\in Y: \phi(y)\\}$로 둔다.
+- $\phi(y)$를 $\exists x\in X. y=F(x)$로 두고, $F(X)=\\{y\in Y: \phi(y)\\}$로 둔다.
 
 ---
