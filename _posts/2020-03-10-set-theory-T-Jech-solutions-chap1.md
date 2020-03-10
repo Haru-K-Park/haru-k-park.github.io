@@ -27,4 +27,8 @@ $Y\subset X$이므로 $Y\in P(X)\subset X$이다. $Y\in Y$이면 $Y\notin Y$이�
 [^2]: 또는 분리 공리<sup>separation axiom</sup>
 
 ## 1.3.
-$X$가 귀납적<sup>inductive</sup>이면, $\{x\in X : x\subset X \}$가 귀납적이다. 따라서 $\mathbb{N}$이 귀납적이고, $n=\\{m\in \mathbb{N}:m<n\\}$이다.
+$X$가 귀납적<sup>inductive</sup>이면, $\\{ x \in X : x \subset X \\}$가 귀납적이다. 따라서 $\mathbb{N}$이 추이적<sup>transitive</sup>이고, $n=\\{m\in \mathbb{N}:m<n\\}$이다.
+### 풀이
+$Y=\\{ x \in X : x \subset X \\}$이라 하자. $X$가 귀납적이므로 $\emptyset\in X$이고, 따라서 $\emptyset\in Y$이다. $x\in Y$라 하자. $x\in X$이고 $X$가 귀납적이므로 $x\cup \\{ x \\}\in X$이고, 또한 $x\subset X$이므로 $x\cup \\{ x \\}\subset X$이다. 따라서 $x\cup \\{ x \}}\in Y$이고 $Y$는 귀납적이다.
+
+$\mathbb{N}$이 모든 귀납적 집합의 교집합이므로, $\\{ n \in \mathbb{N} : n \subset \mathbb{N} \\}=\mathbb{N}$이고, 따라서 $\mathbb{N}$은 추이적이다. 이로 인해 $n\subset \mathbb{N}$이다. 즉, $n= \\{ m \in \mathbb{N} : m \in n \}}$이다. \square
