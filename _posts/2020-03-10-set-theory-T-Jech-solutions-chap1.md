@@ -62,6 +62,26 @@ $Y$가 주어진 집합이라 하자. $\emptyset\in Y$임과 $x\in Y$일 때 $x\
 >모든 비어있지 않은 $X\subset \mathbb{N}$은 $\in$-최소 원소를 가진다.
 
 ### 풀이
-$\mathbb{N}$이 모든 귀납적 집합의 교집합이므로, [문제 1.6](#1-6)에 의하여 
+$\mathbb{N}$이 모든 귀납적 집합의 교집합이므로, [문제 1.6](#16)에 의하여 모든 $n\in \mathbb{N}$에 대하여, 비어 있지 않은 부분집합 $z\subset n$이 $\in$-최소 원소를 가진다. $X\subset \mathbb{N}$에 대해 $n\in X$를 잡는다. $X\cap n=\emptyset$이면, $s\in n$이고 $s\in X$일 수 없으므로 $n$이 $X$의 최소 원소이다. $X\cap n\neq \emptyset$이면 $X\cap n$이 $n$의 비어 있지 않은 부분집합이므로 $\in$-최소 $m\in X\cap n$을 가진다. $n\in m$이면 [문제 1.4](#14)에 의하여 $n\subset m$이고, $m\in n$이므로 $m\in m$이다. 이는 [문제 1.5](#15)에 의해 모순이다.
+
+## 1.8.
+>$X$가 귀납적이라면, $\\{ x\in X:(x=\emptyset)\or(\exists y(x=y\cup \{y\})) \\}$ 또한 귀납적이다. 따라서 $0$이 아닌 $n$ 은 어떤 $m$에 대해서 $m+1$과 같다.
+
+### 풀이
+$Y$를 그러한 집합이라 하자. $x\in Y$라 할 때, $x\neq \emptyset$이라 하자. 그러면 $x\cap \{x\}\in X$이고 조건을 만족시키므로 $x\cap \{x\}\in Y$이다.
+
+$\mathbb{N}$이 모든 귀납적 집합의 교집합이므로, $\mathbb{N}$에 대한 위의 집합은 $\mathbb{N}$이다. 따라서 $n\neq 0$이면 어떤 $m$에 대해서 $n=m+1$이다. $\square$
+
+## 1.9.
+> $A\subset \mathbb{N}$이 $0\in A$이고, $n\in A$일 때 $n+1\in A$를 만족시키면, $A=\mathbb{N}$이다.
+
+### 풀이
+$A$는 $\mathbb{N}$의 부분집합이면서 귀납적이므로, $A=\mathbb{N}$이다. $\square$
+
+## 1.10.
+> $n\in \mathbb{N}$일 때 $n$은 T-유한<sup>T-finite</sup>하다.
+
+### 풀이
+T-유한한 $n\in \mathbb{N}$들의 부분집합을 $A$라 하자. $P(0)=\{\emptyset\}$이고, 따라서 $\emptyset$은 $\subset$-극대 원소이므로 $0\in A$이다. $n\in A$라 하자. $X\subset P(n+1)$일 때, 분류 공리에 의하여 집합 $Y=\{x\in X:n\in x\}$이 존재한다. 이것이 공집합이라면 $X\subset P(n)$이고, 따라서 $X$는 $\subset$-극대 원소를 가진다. $Y$가 공집합이 아니라고 하자. 분류 공리에 의하여 공집합이 아닌 집합 $Z=\\{ z\in P(n):z\cup \\{n\\} \in Y \\}$가 존재하고, $Z\subset P(n)$이다. 따라서 $Z$는 $\subset$-극대 원소 $M$을 가진다. $B\in X$에 대하여 $M\cup \\{n\\}\subset B$이라 하면, $n\in B$이므로 $B\in Y$이다. 그러면 $M\subset B-\\{n\\}$이므로 $M\cup \\{n\\}=B$이고, 따라서 $M\cup \\{n\\}$은 $X$의 $\subset$-극대 원소이다. [문제 1.9](#19)에 의하여 $A=\mathbb{N}$이다. $\square$
 
 ---
