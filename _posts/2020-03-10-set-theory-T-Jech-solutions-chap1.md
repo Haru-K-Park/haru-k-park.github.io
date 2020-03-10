@@ -18,7 +18,7 @@ comments: true
 >$P(X)\subset X$인 집합 $X$는 존재하지 않는다.
 
 ### 풀이
-분류 공리<sup>separation schema</sup>[^2]에 의하여, 다음과 같은 집합이 존재한다.
+분류 공리꼴<sup>axiom schema of specification</sup>[^2]에 의하여, 다음과 같은 집합이 존재한다.
 
 $$
 Y=\{x\in X:x\notin x\}
@@ -26,7 +26,7 @@ $$
 
 $Y\subset X$이므로 $Y\in P(X)\subset X$이다. $Y\in Y$이면 $Y\notin Y$이고, $Y\notin Y$이면 $Y\in Y$이므로 모순이다. $\square$
 
-[^2]: 또는 분리 공리<sup>separation axiom</sup>
+[^2]: 또는 분리 공리꼴<sup>axiom schema of separation</sup>
 
 ## 1.3.
 >$X$가 귀납적<sup>inductive</sup>이면, $\\{ x \in X : x \subset X \\}$ 또한 귀납적이다. 따라서 $\mathbb{N}$이 추이적<sup>transitive</sup>이고, $n=\\{m\in \mathbb{N}:m<n\\}$이다.
@@ -83,5 +83,35 @@ $A$는 $\mathbb{N}$의 부분집합이면서 귀납적이므로, $A=\mathbb{N}$�
 
 ### 풀이
 T-유한한 $n\in \mathbb{N}$들의 부분집합을 $A$라 하자. $P(0)=\{\emptyset\}$이고, 따라서 $\emptyset$은 $\subset$-극대 원소이므로 $0\in A$이다. $n\in A$라 하자. $X\subset P(n+1)$일 때, 분류 공리에 의하여 집합 $Y=\{x\in X:n\in x\}$이 존재한다. 이것이 공집합이라면 $X\subset P(n)$이고, 따라서 $X$는 $\subset$-극대 원소를 가진다. $Y$가 공집합이 아니라고 하자. 분류 공리에 의하여 공집합이 아닌 집합 $Z=\\{ z\in P(n):z\cup \\{n\\} \in Y \\}$가 존재하고, $Z\subset P(n)$이다. 따라서 $Z$는 $\subset$-극대 원소 $M$을 가진다. $B\in X$에 대하여 $M\cup \\{n\\}\subset B$이라 하면, $n\in B$이므로 $B\in Y$이다. 그러면 $M\subset B-\\{n\\}$이므로 $M\cup \\{n\\}=B$이고, 따라서 $M\cup \\{n\\}$은 $X$의 $\subset$-극대 원소이다. [문제 1.9](#19)에 의하여 $A=\mathbb{N}$이다. $\square$
+
+## 1.11.
+> $\mathbb{N}$은 T-무한하다.
+
+### 풀이
+$\mathbb{N}\subset P(N)$을 생각하고, $n\in \mathbb{N}$이 $\subset$-극대 원소라고 하자. $n\in n+1$이고 [문제 1.4](#14)에 의하여 $n\subset n+1$이다. [문제 1.5](#15)에 의하여 $n\neq n+1$이고, 이는 모순이다. $\square$
+
+# 1.12.
+> 모든 유한집합은 T-유한하다.
+
+### 풀이
+
+# 1.13.
+> 모든 무한집합은 T-무한하다.
+
+### 풀이
+
+# 1.14.
+> 분리 공리꼴은 치환 공리꼴<sup>axiom schema of replacement</sup>로부터 유도된다.
+
+### 풀이
+
+# 1.15.
+> 합집합 공리, 멱집합 공리, 치환 공리꼴 대신 다음 약화된 공리들을 생각하자.
+- $\forall X \, \exists Y \, \union X\subset Y$
+- $\forall X \, \exists Y \, P(X) \subset Y$
+- If a class $F$ is a function, then $\forall X\, \exists Y\, F(X)\subset Y$
+그러면 이들과 분리 공리꼴을 이용하여 합집합 공리, 멱집합 공리, 치환 공리꼴을 각각 증명할 수 있다.
+
+### 
 
 ---
