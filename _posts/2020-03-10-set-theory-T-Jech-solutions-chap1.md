@@ -48,13 +48,20 @@ $\mathbb{N}$이 모든 귀납적 집합의 교집합이므로, $\\{n \in \mathbb
 >$X$가 귀납적이면, $\\{x \in X : x \textrm{는 추이적이고 } x\notin x\\}$는 귀납적이다. 따라서 모든 $n\in \mathbb{N}$에 대해 $n\notin n$이고 $n\neq n+1$이다.
 
 ### 풀이
-$Y=\\{x \in X : x \textrm{는 추이적이고 } x\notin x\\}$이라 하자. $X$가 귀납적이므로 $\emptyset\in X$이고, $\emptyset$이 추이적임은 공진리<sup>vacuous truth</sup>이고 $\emptyset\notin \emptyset$이므로 $\emptyset\in Y$이다. $x\in Y$라 하자. $x\in X$이고 $X$가 귀납적이므로 $x\cup \\{ x \\} \in X$이다. $y\in x\cup \\{ x \\}$이라 하자. $y\in x$이면, $x$가 추이적이므로, $y\subset x$이고 따라서 $y\subset x\cup \\{ x \\}$이다. $y\in \\{ x \\}$이면 $x=y$이고 따라서 $y\subset x\cup \\{x\\}$이다. $x\cup \\{ x \\}\in x\cup \\{ x \\}$이면$x\cup \\{x\\}=x$이거나 $x\cup \\{x\\} \in x$이고, $x$가 추이적이므로 $x\cup \\{x\\}\subset x$이다. 따라서 $\\{x\\} \subset x$이고 따라서 $x\in x$이다. 이는 $x\notin x$라는 가정에 모순이므로 $Y$는 귀납적이다.
+$Y=\\{x \in X : x \textrm{는 추이적이고 } x\notin x\\}$이라 하자. $X$가 귀납적이므로 $\emptyset\in X$이고, $\emptyset$이 추이적임은 공진리이고 $\emptyset\notin \emptyset$이므로 $\emptyset\in Y$이다. $x\in Y$라 하자. $x\in X$이고 $X$가 귀납적이므로 $x\cup \\{ x \\} \in X$이다. $y\in x\cup \\{ x \\}$이라 하자. $y\in x$이면, $x$가 추이적이므로, $y\subset x$이고 따라서 $y\subset x\cup \\{ x \\}$이다. $y\in \\{ x \\}$이면 $x=y$이고 따라서 $y\subset x\cup \\{x\\}$이다. $x\cup \\{ x \\}\in x\cup \\{ x \\}$이면 $x\cup \\{x\\}=x$이거나 $x\cup \\{x\\} \in x$이고, $x$가 추이적이므로 $x\cup \\{x\\}\subset x$이다. 따라서 $\\{x\\} \subset x$이고 따라서 $x\in x$이다. 이는 $x\notin x$라는 가정에 모순이므로 $Y$는 귀납적이다.
 
 $\mathbb{N}$이 모든 귀납적 집합의 교집합이므로 위를 적용하면 $n\notin n$이다. $n=n+1$이라 하면 $n\cup \\{ n \\} =n$이므로 $\\{ n \\}\subset n$이 되고, 따라서 $n\in n$을 얻어 모순이다. $\square$
 
 ## 1.6.
 >$X$가 귀납적이라면, $X$의 추이적인 원소들 $x$ 중 모든 비어 있지 않은 $z\subset x$가 $\in$-최소 원소를 가지는 원소들로 이루어진 부분집합은 귀납적이다.
-### 풀이
 
+### 풀이
+$Y$가 주어진 집합이라 하자. $\emptyset\in Y$임과 $x\in Y$일 때 $x\cap \\{ x \\}$이 추이적임은 위와 같은 논의로 보일 수 있다. 비어 있지 않은 부분집합 $z\subset x\cup \\{ x \\}$에 대하여, $z\cap x\neq \emptyset$이거나 $z\cap x = \emptyset$이다. 첫 번째 경우, $z\cap x$가 $x$의 비어 있지 않은 부분집합이므로 $\in$-최소 원소 $t$를 가진다. $x\notin z$라면 $t$가 $z$의 최소 원소이다. $x\in z$일 때 $x\in t$라 하자. $t\in x$이고 $x$가 추이적이므로 $t\subset x$이고, 따라서 $x\in x$이다. 두 번째 경우에는 $z=\\{x\\}$이어야 하고, $z$가 최소 원소를 가지지 않는다면 마찬가지로 $x\in x$이다. 그러나 이 경우 $\{x\}\subset x$에서 최소 원소가 존재하지 않으므로 모순이다. $\square$
+
+## 1.7.
+>모든 비어있지 않은 $X\subset \mathbb{N}$은 $\in$-최소 원소를 가진다.
+
+### 풀이
+$\mathbb{N}$이 모든 귀납적 집합의 교집합이므로, [문제 1.6](1-6)
 
 ---
