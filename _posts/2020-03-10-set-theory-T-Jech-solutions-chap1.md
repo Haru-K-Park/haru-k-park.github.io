@@ -94,14 +94,16 @@ $\mathbb{N}\subset P(N)$을 생각하고, $n\in \mathbb{N}$이 $\subset$-극대 
 > 모든 유한집합은 T-유한하다.
 
 ### 풀이
+집합 $X$가 유한집합이면 n에서 $X$ 위로의 일대일함수 $f$가 존재한다. 이 때 $f^{-1}$ 또한 함수이고, 따라서 치환 공리꼴<sup>axiom of replacement schema</sup>에 의하여 집합의 $f$와 $f^{-1}$에 대한 상<sup>image</sup>은 집합이다. 공집합이 아닌 부분집합 $A\subset P(X)$에 대하여, [문제 1.10](#110)에 의해 $f^{-1}(A)$의 $\subset$-극대 원소 $m$이 존재한다. 어떤 $u\in A$에 대하여 $f(m)\subset u$라 하자. 그러면 $m\subset f^{-1}(u)$이므로 $m=f^{-1}(u)$이고, 따라서 $f(m)=u$이고 $f(m)$은 $A$의 $\subset$-극대 원소이다. $\square$
 
 # 1.13.
-> 모든 무한집합은 T-무한하다.
+> 모든 무한집합은 T-무한하다.<sup>T-infinite</sup>
 
 ### 풀이
+집합 $S$가 무한집합일 때, 집합 $X=\\{u\subset S:|u|<\infty\\}$을 생각하자. $X$가 $\subset$-극대 원소 $u$를 가진다고 가정하자. $u$가 유한집합이고 $S$가 무한집합이므로, $S-u$는 공집합이 아니다. 따라서 $x\in S-u$를 잡을 수 있고, $u\cup \\{x\\}$는 $X$의 원소이다. $x\notin u$이므로 $u\subset u\cup \\{x\\}$이고 $u\neq u\cup \\{x\\}$이고, 이는 모순이다. $\square$
 
 # 1.14.
-> 분리 공리꼴은 치환 공리꼴<sup>axiom schema of replacement</sup>로부터 유도된다.
+> 분리 공리꼴은 치환 공리꼴로부터 유도된다.
 
 ### 풀이
 
@@ -109,7 +111,7 @@ $\mathbb{N}\subset P(N)$을 생각하고, $n\in \mathbb{N}$이 $\subset$-극대 
 > 합집합 공리, 멱집합 공리, 치환 공리꼴 대신 다음 약화된 공리들을 생각하자.
 >- $\forall X \, \exists Y \, \bigcup X\subset Y$
 >- $\forall X \, \exists Y \, P(X) \subset Y$
->- If a class $F$ is a function, then $\forall X\, \exists Y\, F(X)\subset Y$
+>- 모임 $F$가 함수일 때, $\forall X\, \exists Y\, F(X)\subset Y$
 >
 >그러면 이들과 분리 공리꼴을 이용하여 합집합 공리, 멱집합 공리, 치환 공리꼴을 각각 증명할 수 있다.
 
