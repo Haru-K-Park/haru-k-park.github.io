@@ -107,10 +107,11 @@ $\mathbb{N}\subset P(N)$을 생각하고, $n\in \mathbb{N}$이 $\subset$-극대 
 
 # 1.15.
 > 합집합 공리, 멱집합 공리, 치환 공리꼴 대신 다음 약화된 공리들을 생각하자.
-- $\forall X \, \exists Y \, \union X\subset Y$
-- $\forall X \, \exists Y \, P(X) \subset Y$
-- If a class $F$ is a function, then $\forall X\, \exists Y\, F(X)\subset Y$
-그러면 이들과 분리 공리꼴을 이용하여 합집합 공리, 멱집합 공리, 치환 공리꼴을 각각 증명할 수 있다.
+>- $\forall X \, \exists Y \, \union X\subset Y$
+>- $\forall X \, \exists Y \, P(X) \subset Y$
+>- If a class $F$ is a function, then $\forall X\, \exists Y\, F(X)\subset Y$
+
+>그러면 이들과 분리 공리꼴을 이용하여 합집합 공리, 멱집합 공리, 치환 공리꼴을 각각 증명할 수 있다.
 
 ### 
 
