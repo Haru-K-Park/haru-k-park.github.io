@@ -10,13 +10,13 @@ comment: true
 임계 온도<sup>critical temperature</sup> $T_c$를 가지는 계에서 환산온도<sup>reduced temperature</sup>를 다음과 같이 쓰자.
 
 $$
-\tau\def \frac{T-T_c}{T_c}
+\tau\colon = \frac{T-T_c}{T_c}
 $$
 
 이 때 환산온도에 의존하는 물리량 $f(\tau)$의 임계 지수 $k$는 다음과 같이 정의된다.
 
 $$
-k\def \lim_{\tau\rightarrow 0}\frac{\log |f(\tau)|}{\log|\tau|}
+k\colon = \lim_{\tau\rightarrow 0}\frac{\log |f(\tau)|}{\log|\tau|}
 $$
 
 곧, $\tau=0$, 즉 $T=T_c$ 근방에서 $f\sim \tau^k$로 표현된다.
