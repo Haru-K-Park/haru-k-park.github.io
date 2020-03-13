@@ -62,7 +62,7 @@ $Y$가 주어진 집합이라 하자. $\emptyset\in Y$임과 $x\in Y$일 때 $x\
 >모든 비어있지 않은 $X\subset \mathbb{N}$은 $\in$-최소 원소를 가진다.
 
 ### 풀이
-$\mathbb{N}$이 모든 귀납적 집합의 교집합이므로, [문제 1.6](#16)에 의하여 모든 $n\in \mathbb{N}$에 대하여, 비어 있지 않은 부분집합 $z\subset n$이 $\in$-최소 원소를 가진다. $X\subset \mathbb{N}$에 대해 $n\in X$를 잡는다. $X\cap n=\emptyset$이면, $s\in n$이고 $s\in X$일 수 없으므로 $n$이 $X$의 최소 원소이다. $X\cap n\neq \emptyset$이면 $X\cap n$이 $n$의 비어 있지 않은 부분집합이므로 $\in$-최소 $m\in X\cap n$을 가진다. $n\in m$이면 [문제 1.4](#14)에 의하여 $n\subset m$이고, $m\in n$이므로 $m\in m$이다. 이는 [문제 1.5](#15)에 의해 모순이다. $square$
+$\mathbb{N}$이 모든 귀납적 집합의 교집합이므로, [문제 1.6](#16)에 의하여 모든 $n\in \mathbb{N}$에 대하여, 비어 있지 않은 부분집합 $z\subset n$이 $\in$-최소 원소를 가진다. $X\subset \mathbb{N}$에 대해 $n\in X$를 잡는다. $X\cap n=\emptyset$이면, $s\in n$이고 $s\in X$일 수 없으므로 $n$이 $X$의 최소 원소이다. $X\cap n\neq \emptyset$이면 $X\cap n$이 $n$의 비어 있지 않은 부분집합이므로 $\in$-최소 $m\in X\cap n$을 가진다. $n\in m$이면 [문제 1.4](#14)에 의하여 $n\subset m$이고, $m\in n$이므로 $m\in m$이다. 이는 [문제 1.5](#15)에 의해 모순이다. $\square$
 
 ## 1.8.
 >$X$가 귀납적이라면, $\\{ x\in X:(x=\emptyset)\vee(\exists y(x=y\cup \{y\})) \\}$ 또한 귀납적이다. 따라서 $0$이 아닌 $n$ 은 어떤 $m$에 대해서 $m+1$과 같다.
