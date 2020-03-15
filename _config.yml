@@ -17,12 +17,6 @@ markdown:       kramdown
 include:
   - _pages
 
-# footnote setting change
-#kramdown:
-#  input: GFM
-#  footnotes_backlink: '&#8593;&#65038;'
-#  footnotes_nr: 5
-
 # Assets
 sass:
   sass_dir:     _sass
