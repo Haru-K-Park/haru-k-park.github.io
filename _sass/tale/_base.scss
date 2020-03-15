@@ -70,3 +70,7 @@ td {
 .commdiag {
   line-height: normal;
 }
+
+a.reversefootnote:after {
+  content: '\fe0e';
+}
