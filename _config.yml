@@ -17,6 +17,10 @@ markdown:       kramdown
 include:
   - _pages
 
+# Kramdown settings
+kramdown:
+  parse_block_html: true
+
 # Assets
 sass:
   sass_dir:     _sass

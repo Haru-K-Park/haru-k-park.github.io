@@ -4,24 +4,26 @@ title: "호몰로지 긴 완전열"
 author: "YGLENA"
 comments: true
 ---
-# 정리
-**호몰로지 긴 완전열<sup>Homology long exact sequence</sup>.** 아벨 범주<sup>Abelian category</sup> $\mathcal{C}$와 그 위의 사슬 복합체 범주 $\mathrm{Ch}_\bullet(\mathcal{C})$를 생각하자. 사슬 복합체 사이의 짧은 완전열
-
-$$
+* 
+{:toc}
+## 정리
+>**호몰로지 긴 완전열<sup>Homology long exact sequence</sup>.** 아벨 범주<sup>Abelian category</sup> $\mathcal{C}$와 그 위의 사슬 복합체 범주 $\mathrm{Ch}_\bullet(\mathcal{C})$를 생각하자. 사슬 복합체 사이의 짧은 완전열
+>
+>$$
 \require{AMScd}\begin{CD}
 0 @> > > A_\bullet @>f> > B_\bullet @>g> > C_\bullet @> > > 0
 \end{CD}
-$$
-
-에 대하여, 다음이 긴 완전열이다.
-
-$$
+>$$
+>
+>에 대하여, 다음이 긴 완전열이다.
+>
+>$$
 \require{AMScd}\begin{CD}
-\cdots @> > > H_{n+1}(C) @>\partial> > H_n(A) @>f_{*}> > H_n(B) @>g_{*}> > H_n(C) @>\partial> > H_{n-1}(A)@> > > \cdots
+\cdots @> > > H_{n+1}(C) @>\partial> > H_n(A) @>f_{*}> > H_n(B) @>g_{*}> > H_n(C) @>\partial> > \cdots
 \end{CD}
-$$
+>$$
 
-# 증명
+## 증명
 [뱀 보조정리<sup>snake Lemma</sup>](https://yglena.github.io/2020-03-08/snake-lemma)와 프레이드-미첼 매장 정리<sup>Freyd-Mitchell embedding theorem</sup>를 이용한다. $R-\mathrm{mod}$ 위의 사슬 복합체 사이의 짧은 완전열에서 다음 그림을 그릴 수 있다.
 
 $$

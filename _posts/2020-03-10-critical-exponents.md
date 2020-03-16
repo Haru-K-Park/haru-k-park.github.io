@@ -4,7 +4,8 @@ title: "임계 지수"
 author: "YGLENA"
 comments: true
 ---
-# 정의
+* 
+{:toc}
 **임계 지수<sup>critical exponent</sup>**란 물리적인 값들이 이차 상전이<sup>second order phase transition</sup>의 임계점<sup>critical point</sup> 근방에서 보이는 추세를 나타내는 값이다.
 
 임계 온도<sup>critical temperature</sup> $T_c$를 가지는 계에서 환산온도<sup>reduced temperature</sup>를 다음과 같이 쓰자.

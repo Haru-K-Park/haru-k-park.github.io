@@ -29,6 +29,7 @@ footer,
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
+    border-bottom: none;
 
     &:hover,
     &:focus {
@@ -104,4 +105,54 @@ footer {
   a:hover {
     opacity: .6
   }
+}
+
+#markdown-toc::before {
+  content: "목차";
+  font-weight: bold;
+  font-size:20px;
+}
+
+#markdown-toc{
+  ul {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: table;
+    counter-increment: item;
+    margin-bottom: 0.6em;
+  }
+  
+  li:before {
+      content: counters(item, ".") ". ";
+      display: table-cell;
+      padding-right: 0.6em;    
+  }
+  
+  li li {
+      margin: 0;
+  }
+  
+  li li:before {
+      content: counters(item, ".") " ";
+  }
+  
+}
+
+// Using numbers instead of bullets for listing
+#markdown-toc ul {
+  list-style: decimal;
+}
+
+#markdown-toc {
+  border: 1px solid #e5e5e5;
+  background: #f9f9f9;
+  padding: 14px 1.5em 0.5em 1.5em;
+  list-style: decimal;
+  display: inline-block;
+  text-underline-offset: 3px;
 }
