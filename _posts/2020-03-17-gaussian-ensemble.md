@@ -270,13 +270,13 @@ $$
 이므로,
 
 $$
-DM=2^{n(n-1)/4}\prod_{i}dM_{ii} \prod_{j< k} dM_{jk}
+DM=2^{n(n-1)/4}\prod_{i}dM_{ii} \prod_{i< j} dM_{ij}
 $$
 
 이다. 따라서
 
 $$
-\prod_{i}dM_{ii} \prod_{j< k} dM_{jk}=\prod_{i}d\lambda_i\prod_{i< j}\lvert \lambda_i - \lambda_j \rvert dA_{ij}
+\prod_{i}dM_{ii} \prod_{i< j} dM_{ij}=\prod_{i}d\lambda_i\prod_{i< j}\lvert \lambda_i - \lambda_j \rvert dA_{ij}
 $$
 
 이다. 따라서 $\prod_{i< j}\lvert \lambda_i - \lambda_j \rvert$ 항이 곱해지게 된다.
