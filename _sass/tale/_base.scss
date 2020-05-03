@@ -73,3 +73,18 @@ td {
 .commdiag {
   line-height: normal;
 }
+
+details > summary {
+  @include transition(all .3s ease-out);
+ text-decoration: underline;
+ opacity: 1;
+ &:hover,
+ &:focus {
+   opacity: .6;
+   text-decoration: none;
+ }
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
