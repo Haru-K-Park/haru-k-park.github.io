@@ -23,12 +23,20 @@ $T\in \mathcal{L}(E,F)$에 대하여, $T$의 상이 유한 차원 공간일 때 
 
 > 모든 유한 계수 연산자는 콤팩트 연산자이다.
 
-**증명.** $T$가 유계이므로, 유계 집합을 유계 집합으로 보내고, 따라서 하이네-보렐 정리<sup>Heine-Borel theorem</sup>에 의하여 이의 폐포<sup>closure</sup>는 콤팩트하다. $\square$
+<details><summary>**증명.**
+</summary>
+
+$T$가 유계이므로, 유계 집합을 유계 집합으로 보내고, 따라서 하이네-보렐 정리<sup>Heine-Borel theorem</sup>에 의하여 이의 폐포<sup>closure</sup>는 콤팩트하다. $\square$
+</details>
 
 > 바나흐 공간 $E,F,G$에 대하여, $T\in \mathcal{L}(E,F)$, $S\in \mathcal{K}(F,G)$이거나 $T\in \mathcal{K}(E,F)$, $S\in \mathcal{L}(F,G)$일 때, $S\circ T\in \mathcal{K}(E,G)$이다.
 >>따라서 $\mathcal{K}(E)$는 $\mathcal{L}(E)$의 양쪽 아이디얼<sup>two-sided ideal</sup>이고, 따라서 $\mathcal{K}(E)/\mathcal{L}(E)$는 단순대수<sup>simple algebra</sup>이다. 이를 **칼킨 대수<sup>Calkin algebra</sup>**라 한다.
 
-**증명.** 첫 번째 경우, $T$가 유계이므로 $T(B_E)$가 유계이고, 따라서 $\overline{S\circ T(B_E)}$가 콤팩트하다. 두 번째 경우, $\overline{T(B_E)}$가 콤팩트하므로, $\overline{S(\overline{T(B_E)})}=\overline{S\circ T(B_E)}$가 콤팩트하다. $\square$
+<details><summary>**증명.**
+</summary>
+
+첫 번째 경우, $T$가 유계이므로 $T(B_E)$가 유계이고, 따라서 $\overline{S\circ T(B_E)}$가 콤팩트하다. 두 번째 경우, $\overline{T(B_E)}$가 콤팩트하므로, $\overline{S(\overline{T(B_E)})}=\overline{S\circ T(B_E)}$가 콤팩트하다. $\square$
+</details>
 
 >**프레드홀름 대체<sup>Fredholm alternative</sup>.**[^1] $T\in \mathcal{K}(E)$라 하면, 다음이 성립한다.
 >1. $\mathrm{Ker}(I-T)$는 유한 차원을 가진다.

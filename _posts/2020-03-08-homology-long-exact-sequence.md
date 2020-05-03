@@ -23,7 +23,9 @@ comments: true
 \end{CD}
 >$$
 
-## 증명
+<details><summary>**증명.**
+</summary> 
+
 [뱀 보조정리<sup>snake Lemma</sup>](https://yglena.github.io/2020-03-08/snake-lemma)와 프레이드-미첼 매장 정리<sup>Freyd-Mitchell embedding theorem</sup>를 이용한다. $R-\mathrm{mod}$ 위의 사슬 복합체 사이의 짧은 완전열에서 다음 그림을 그릴 수 있다.
 
 $$
@@ -47,6 +49,7 @@ $$
 $$
 
 $d:A_n/d(A_{n+1})\rightarrow d(A_{n-1})$의 핵<sup>kernel</sup>이 $Z_n/B_n=H_n(A)$이고 여핵<sup>cokernel</sup>이 $Z_{n-1}/B_{n-1}=H_{n-1}(A)$이므로, 뱀 보조정리를 다시 적용하면 명시된 긴 완전열을 얻는다. $\square$
+</details>
 
 # 코호몰로지
 주어진 증명에 쌍대를 취하면, 주어진 공사슬 복합체<sup>cochain complex</sup> 사이의 짧은 완전열

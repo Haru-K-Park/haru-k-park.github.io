@@ -6,7 +6,7 @@ comments: true
 ---
 * 
 {:toc}
-[T. Jech의 Set Theory](https://dio.org/10.1007/3-540-44761-X){:target="_blank"}
+[T. Jech의 Set Theory](https://doi.org/10.1007/3-540-44761-X){:target="_blank"}
 ## 1.1.
 >$(a,b)=(c,d)$임과 $a=c,b=d$임이 동치이다.
 
