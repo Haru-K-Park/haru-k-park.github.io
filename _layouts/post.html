@@ -21,6 +21,14 @@ layout: default
     {% if page.date %}
         <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
+    <br>
+    {% if page.tags != empty %}
+      {% for tag in page.tags %}
+          <a href="/tags#{{ tag | escape }}" class="transition">{{tag}}</a>
+          {% if forloop.index != page.tags.size %},{% endif %} 
+        {% endfor %}
+    {% endif %}
+      <br>
   </div>
 <!--  <div class="post-line"></div> -->
 

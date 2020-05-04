@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<article class="tag">
+    <div>
+        <h1 class="post-title">Tags</h1>
+
+        <div>
+            {%  for tag in site.tags %}
+                {% capture tag_name %}{{tag|first|capitalize}}{% endcapture %}
+                <div class="tagname">
+                    <a href="/tags#{{tag_name}}">{{ tag_name }}</a>
+                </div>
+            {% endfor %}
+        </div> 
+    </div>
+
+    <div>
+        <div>
+            {% for tag in site.tags%}
+            <div style="margin-bottom: 50px;">
+                {% capture tag_name %}{{tag|first|capitalize}}{% endcapture %}
+                <div id="{{ tag_name }}"></div>
+                <h2>{{ tag_name }}</h2>
+                <ul class="post-archives">
+                {% for post in site.tags[tag_name] %}
+                  <li style="margin-left: 20px;">     
+                        {% if post.external-url %}
+                        <div class="tagname">
+                          <a href="{{ post.external-url }}">{{ post.title | escape }} &rarr;</a>
+                        </div>
+                        {% else %}
+                        <div class="tagname">
+                          <a href="{{ post.url | relative_url }}"{% if lang != empty %} lang="{{ lang }}"{% endif %}>{{ post.title | escape }}</a>
+                        </div>
+                          {% endif %}
+                        {{ post.date | date: "%b %-d, %Y" }}
+                        {% if post.categories != empty or post.tags != empty %}
+                          {% include category_links.html categories=post.categories tags=post.tags %}
+                        {% endif %}
+                        {% if post.external-url %}
+                        <div class="tagname">
+                          • <a href="{{ post.url | relative_url }}">Permalink</a>
+                        </div>
+                        {% endif %}
+                    </li>
+                    
+                  {% endfor %}
+                  </ul>
+              </div>
+              
+              {% endfor %}
+        </div>    
+    </div>
+</article>

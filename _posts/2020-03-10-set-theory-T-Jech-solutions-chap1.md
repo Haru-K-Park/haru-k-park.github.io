@@ -3,6 +3,7 @@ layout: post
 title: "집합론 풀이 1장"
 author: "YGLENA"
 comments: true
+tags: [Set theory, Problems and solutions]
 ---
 * 
 {:toc}

@@ -3,6 +3,7 @@ layout: post
 title: "프레드홀름 연산자"
 author: "YGLENA"
 comments: true
+tags: [Functional analysis]
 ---
 * 
 {:toc}

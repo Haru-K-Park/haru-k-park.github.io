@@ -3,6 +3,7 @@ layout: post
 title: "오일러-매클로린 급수"
 author: "YGLENA"
 comments: true
+tags: [Calculus]
 ---
 * 
 {:toc}

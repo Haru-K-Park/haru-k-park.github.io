@@ -81,6 +81,31 @@ footer,
   }
 }
 
+.tag {
+  a {    
+    @include transition(all .2s ease-out);
+    color: $default-color;
+    font-family: $sans-serif;
+    
+    &:hover,
+    &:focus {
+      opacity: .6;
+    }
+  }
+  .tagname{
+    @include transition(all .2s ease-out);
+    display: inline-block;
+    a {
+      color: $default-color;
+      font-family: $sans-serif;
+    }
+    &:hover,
+    &:focus {
+      opacity: .6;
+    }
+  }
+}
+
 footer {
   font-family: $sans-serif;
   padding: 2rem 0;
@@ -88,7 +113,7 @@ footer {
 /*  .copyright {
   }
 */
-  
+
   .accounts {
     margin-top: 2px;
     margin-bottom: 2px;

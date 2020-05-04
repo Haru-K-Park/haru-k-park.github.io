@@ -3,6 +3,7 @@ layout: post
 title: "호몰로지 긴 완전열"
 author: "YGLENA"
 comments: true
+tags: [Homological algebra]
 ---
 * 
 {:toc}

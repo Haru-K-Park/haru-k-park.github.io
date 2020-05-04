@@ -3,6 +3,7 @@ layout: post
 title: "임계 지수"
 author: "YGLENA"
 comments: true
+tags: [Condensed matter]
 ---
 * 
 {:toc}

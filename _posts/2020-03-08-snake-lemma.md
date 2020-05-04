@@ -3,6 +3,7 @@ layout: post
 title: "뱀 보조정리"
 author: "YGLENA"
 comments: true
+tags: [Homological algebra]
 ---
 * 
 {:toc}
