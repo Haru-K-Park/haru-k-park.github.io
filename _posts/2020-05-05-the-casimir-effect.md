@@ -81,4 +81,4 @@ $$
 F(a)=-\frac{\pi \hbar c}{24a^2}\simeq \frac{-4\times 10^{-27}[ \textrm{Nm^2}]}{a^2}
 $$
 
-이는 $a=1nm$에서 약 $4\times 10^{-9}[ \textrm{N}]$의 힘으로, 도마뱀붙이의 강모 하나가 가지는 점착력과 유사하다.
+이는 $a=1nm$에서 약 $4\times 10^{-9}[ \textrm{N}]$의 힘으로, 도마뱀붙이의 강모 하나가 가지는 점착력과 유사하다. 이를 **카시미르 효과<sup>Casimir effect</sup>**라 한다.
