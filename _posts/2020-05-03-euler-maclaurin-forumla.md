@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "오일러-매클로린 급수"
+title: "오일러-매클로린 식"
 author: "YGLENA"
 comments: true
 tags: [Calculus]
@@ -80,7 +80,7 @@ $$
 </details>
 
 
->후르비츠 제타 함수
+>후르비츠 제타 함수<sup>Hurwitz zeta function</sup>
 >
 >$$
 \zeta(s,x)=\sum_{n=0}^{\infty}\frac{1}{(x+n)^s}
@@ -107,7 +107,7 @@ B_{n}=(-1)^{1-n} n\zeta(1-n)
 \end{align*}
 >$$
 
-## 오일러-매클로린 급수
+## 오일러-매클로린 식
 >정수 $a,b\in \mathbb{Z}$와 함수 $f:[ a,b ]\rightarrow \mathbb{R}$에 대하여,  $f\in C^k([a, b])$일 때 다음이 성립한다.
 >
 >$$
@@ -120,6 +120,7 @@ B_{n}=(-1)^{1-n} n\zeta(1-n)
 R_k=-\int_a^b \frac{(-1)^k}{k!}\psi_k(x) f^{(k)} (x)dx
 >$$
 >
+>이를 **오일러-매클로린 식<sup>Euler-Maclaurin formula</sup>**이라 한다.
 
 <details><summary>**증명.**
 </summary>
@@ -180,7 +181,7 @@ $$
 \log n!=n\log n-n+\frac{1}{2}\log 2\pi n+\mathcal{O}(n^{-1})
 >$$
 >
->이를 스털링 근사<sup>Stirling approximation</sup>이라 한다.
+>이를 **스털링 근사<sup>Stirling approximation</sup>**이라 한다.
 
 <details><summary>**증명.**
 </summary>
@@ -219,14 +220,14 @@ $\square$
 
 </details>
 
-#### 파울하버의 공식
+#### 파울하버의 식
 >모든 $p>1$에 대하여, 다음이 성립한다.
 >
 >$$
 \sum_{k=1}^n k^p = \frac{n^{p+1}}{p+1}+\sum_{k=1}^p (-1)^k\frac{B_k}{k!}\frac{p!}{(p-k+1)!}n^{p-k+1}
 >$$
 >
->이를 파울하버의 공식<sup>Faulhaber formula</sup>이라 한다.
+>이를 **파울하버의 식<sup>Faulhaber formula</sup>**이라 한다.
 
 <details><summary>**증명.**
 </summary> 
