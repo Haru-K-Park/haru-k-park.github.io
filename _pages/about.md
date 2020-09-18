@@ -25,64 +25,64 @@ I am a graduate student working in Integrated Master & Ph. D. degree course of [
 ### Physics
 
 #### Classical Mechanics
-L. D. Landau and E. M. Lifshitz, --Mechanics--, 3rd ed. (Butterworth-Heinemann, 1976)
-H. Goldstein, J. L. Safko, and C. P. Poole, --Classical Mechanics--, 3rd ed. (Pearson, 2013)
+* L. D. Landau and E. M. Lifshitz, *Mechanics*, 3rd ed. (Butterworth-Heinemann, 1976)
+* H. Goldstein, J. L. Safko, and C. P. Poole, *Classical Mechanics*, 3rd ed. (Pearson, 2013)
 
 #### Electrodynamics
-J. R. Reitz, F. J. Milford, and R. W. Christy, --Foundations of Electromagnetic Theory--, 4th ed. (Addison Wesley, 1992)
-J. D. Jackson, --Classical Electrodynamics--, 3rd ed. (Wiley, 1998)
+* J. R. Reitz, F. J. Milford, and R. W. Christy, *Foundations of Electromagnetic Theory*, 4th ed. (Addison Wesley, 1992)
+* J. D. Jackson, *Classical Electrodynamics*, 3rd ed. (Wiley, 1998)
 
 #### Thermodynamics / Stastical mechanics
-H. B. Callen, --Thermodynamics and an Introduction to Thermostatistics--, 2nd ed. (Wiley, 1985)
-W. Greiner, L. Neise, and H. Stöcker, --Thermodynamics and Statistical Mechanics-- (Springer, 1995)
-R. K. Pathria and P. D. Beale, --Statistical Mechanics--, 3rd ed. (Academic Press, 2011)
+* H. B. Callen, *Thermodynamics and an Introduction to Thermostatistics*, 2nd ed. (Wiley, 1985)
+* W. Greiner, L. Neise, and H. Stöcker, *Thermodynamics and Statistical Mechanics* (Springer, 1995)
+* R. K. Pathria and P. D. Beale, *Statistical Mechanics*, 3rd ed. (Academic Press, 2011)
 
 #### Quantum mechanics
-R. Shankar, --Principles of Quantum Mechanics--, 2nd ed. (Plenum Press, 1994)
-S. Gasiorowicz, --Quantum Physics--, 3rd ed. (Wiley, 2003)
-J. J. Sakurai and J. J. Napolitano, --Modern Quantum Mechanics--, 2nd ed. (Addison-Wesley, 2010)
+* R. Shankar, *Principles of Quantum Mechanics*, 2nd ed. (Plenum Press, 1994)
+* S. Gasiorowicz, *Quantum Physics*, 3rd ed. (Wiley, 2003)
+* J. J. Sakurai and J. J. Napolitano, *Modern Quantum Mechanics*, 2nd ed. (Addison-Wesley, 2010)
 
 #### Many-Body Theory / Quantum Field Theory
-A. L. Fetter and J. D. Walecka, --Quantum Theory of Many-Particle Systems-- (Dover Publications, June 2003)
-A. Altland and B. D. Simons, --Condensed Matter Field Theory--, 2nd ed. (Cambridge University Press, 2010)
-M. E. Peskin and D. V. Schroeder, --An Introduction To Quantum Field Theory-- (Avalon Publishing, 1995)
-M. D. Schwartz, --Quantum Field Theory and the Standard Model-- (Cambridge University Press, 2013)
-M. Srednicki, --Quantum Field Theory-- (Cambridge University Press, 2007)
-M. Kadar, --Statistical Physics of Fields-- (Cambridge University Press, 2007)
-S. Sachdev, --Quantum Phase Transitions--, 2nd ed. (Cambridge University Press, 2011)
+* A. L. Fetter and J. D. Walecka, *Quantum Theory of Many-Particle Systems* (Dover Publications, June 2003)
+* A. Altland and B. D. Simons, *Condensed Matter Field Theory*, 2nd ed. (Cambridge University Press, 2010)
+* M. E. Peskin and D. V. Schroeder, *An Introduction To Quantum Field Theory* (Avalon Publishing, 1995)
+* M. D. Schwartz, *Quantum Field Theory and the Standard Model* (Cambridge University Press, 2013)
+* M. Srednicki, *Quantum Field Theory* (Cambridge University Press, 2007)
+* M. Kadar, *Statistical Physics of Fields* (Cambridge University Press, 2007)
+* S. Sachdev, *Quantum Phase Transitions*, 2nd ed. (Cambridge University Press, 2011)
 
 #### Mathematical Physics
-G. B. Arfken, H. J. Weber, and F. E. Harris, --Mathematical Methods for Physicists: A Comprehensive Guide--, 7th ed. (Academic press, 2012)
-M. Nakahara, --Geometry, Topology and Physics--, 2nd ed. (CRC Press, 2003)
-B. C. Hall, --Quantum Theory for Mathematicians--, 2013 ed. (Springer, 2013)
-M. J. D. Hamilton, --Mathematical Gauge Theory: With Applications to the Standard Model of Particle Physics-- (Springer 2018)
-B. C. Hall, --Lie Groups, Lie Algebras, and Representations: An Elementary Introduction--, 2nd ed. (Springer, 2016)
-O. Bratteli and D. W. Robinson, --Operator Algebras and Quantum Statistical Mechanics 1,2-- (Springer, 2010)
+* G. B. Arfken, H. J. Weber, and F. E. Harris, *Mathematical Methods for Physicists: A Comprehensive Guide*, 7th ed. (Academic press, 2012)
+* M. Nakahara, *Geometry, Topology and Physics*, 2nd ed. (CRC Press, 2003)
+* B. C. Hall, *Quantum Theory for Mathematicians*, 2013 ed. (Springer, 2013)
+* M. J. D. Hamilton, *Mathematical Gauge Theory: With Applications to the Standard Model of Particle Physics* (Springer 2018)
+* B. C. Hall, *Lie Groups, Lie Algebras, and Representations: An Elementary Introduction*, 2nd ed. (Springer, 2016)
+* O. Bratteli and D. W. Robinson, *Operator Algebras and Quantum Statistical Mechanics 1,2* (Springer, 2010)
 
 
 ### Mathematics
 
 #### Analysis
-W. Rudin, --Principles of Mathematical Analysis--, 3rd ed. (McGraw-Hill, 1976)
-W. Rudin, --Real and Complex Analysis--, 3rd ed. (McGraw-HIll, 1986)
-E. M. Stein and R. Shakarchi, --Real Analysis: Measure Theory, Integration, and Hilbert Spaces-- (Princeton University Press, 2005)
-J. Bak, D. J. Newman, --Complex Analysis--, 3rd ed. (Springer, 2010)
-E. M. Stein and R. Shakarchi, --Complex Analysis-- (Princeton University Press, 2003)
+* W. Rudin, *Principles of Mathematical Analysis*, 3rd ed. (McGraw-Hill, 1976)
+* W. Rudin, *Real and Complex Analysis*, 3rd ed. (McGraw-HIll, 1986)
+* E. M. Stein and R. Shakarchi, *Real Analysis: Measure Theory, Integration, and Hilbert Spaces* (Princeton University Press, 2005)
+* J. Bak, D. J. Newman, *Complex Analysis*, 3rd ed. (Springer, 2010)
+* E. M. Stein and R. Shakarchi, *Complex Analysis* (Princeton University Press, 2003)
 
 #### Algebra
-D. S. Dummit, R. M. Foote, --Abstract Algebra--, 3rd ed. (Wiley, 2003)
-C. A. Weibel, --An Introduction to Homological Algebra-- (Cambridge University Press, 2008)
-V. G. Kac, --Infinite Dimensional Lie Algebras: An Introduction--, 1983 ed. (Springer, 2012)
-B. Simon, --Representations of Finite and Compact Groups-- (American Mathematical Society, 1995)
+* D. S. Dummit, R. M. Foote, *Abstract Algebra*, 3rd ed. (Wiley, 2003)
+* C. A. Weibel, *An Introduction to Homological Algebra* (Cambridge University Press, 2008)
+* V. G. Kac, *Infinite Dimensional Lie Algebras: An Introduction*, 1983 ed. (Springer, 2012)
+* B. Simon, *Representations of Finite and Compact Groups* (American Mathematical Society, 1995)
 
 #### Category theory
-E. Riehl, --Category Theory in Context-- (Dover Publications, 2016)
-S. M. Lane, --Categories for the Working Mathematician--, 2nd ed. (Springer, 2010)
+* E. Riehl, *Category Theory in Context* (Dover Publications, 2016)
+* S. M. Lane, *Categories for the Working Mathematician*, 2nd ed. (Springer, 2010)
 
 #### Topology
-J. Munkres, --Topology--, 2nd ed. (Prentice Hall, 1999)
-A. Hatcher, --Algebraic Topology-- (Cambridge University Press, 2009)
+* J. Munkres, *Topology*, 2nd ed. (Prentice Hall, 1999)
+* A. Hatcher, *Algebraic Topology* (Cambridge University Press, 2009)
 
 #### Others
-M. Schottenloher, --A Mathematical Introduction to Conformal Field Theory--, 2nd ed. (Springer, 2008)
-T. Jech, --Set Theory--, 3rd ed. (Springer, 2002)
+* M. Schottenloher, *A Mathematical Introduction to Conformal Field Theory*, 2nd ed. (Springer, 2008)
+* T. Jech, *Set Theory*, 3rd ed. (Springer, 2002)
