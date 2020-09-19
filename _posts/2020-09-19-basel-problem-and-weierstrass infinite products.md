@@ -8,7 +8,7 @@ tags: [Calculus, Complex analysis]
 * 
 {:toc}
 
-# 바젤 문제
+## 바젤 문제
 > **바젤 문제<sup>Basel problem</sup>.** 다음이 성립한다.
 >
 >$$
@@ -20,7 +20,7 @@ tags: [Calculus, Complex analysis]
 
 바젤<sup>Basel</sup>은 오일러의 고향으로, 스위스 북서부에 위치해 있다.
 
-# 역사적 접근
+## 역사적 접근
 1655년, 존 왈리스<sup>John Wallis</sup>가 바젤 급수의 합을 소수점 세 자리까지(1.645) 계산하였으나 이것이 $\pi^2/6$과 가까움은 눈치채지 못했다. 1673년, 고트프리트 빌헬름 라이프니츠<sup>Gottfried Willhelm Leibniz</sup>는 존 베르누이<sup>John Bernoulli</sup>에게 보낸 편지에서 다음을 발견하였다. 식
 
 $$
