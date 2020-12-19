@@ -5,7 +5,7 @@ author: "YGLENA"
 permalink: /about/
 ---
 
-*Can. Always can be better than the bottle.*{: .centerthetext}
+*Baby, Please Kill Me.*{: .centerthetext}
 ![Header](/images/header.png){: width="50%" height="50%"0}{: .center}{: .backgrounddarkblue}
 *Image drawn by [Piraco](https://twitter.com/funa_majin)*
 
