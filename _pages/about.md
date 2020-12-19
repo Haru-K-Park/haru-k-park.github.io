@@ -5,6 +5,10 @@ author: "YGLENA"
 permalink: /about/
 ---
 
+*Can. Always can be better than the bottle.*{: .centerthetext}
+![Header](/images/header.png){: width="50%" height="50%"0}{: .center}{: .backgrounddarkblue}
+*Image drawn by [Piraco](https://twitter.com/funa_majin)*
+
 I am a graduate student working in Integrated Master & Ph. D. degree course of [physics department](https://physics.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/kr/). She/Her.
 
 [카이스트](https://www.kaist.ac.kr/kr/)의 [물리학과](https://physics.kaist.ac.kr/)에서 석박사 통합과정 재학중입니다.
@@ -18,7 +22,7 @@ I am a graduate student working in Integrated Master & Ph. D. degree course of [
 
 ## Publications
 
-1. [Spin-helix driven insulating phase in two dimensional lattice](https://arxiv.org/abs/1911.01440): Submitted, proofreading
+1. [Spin-helix driven insulating phase in two dimensional lattice, Phys. Rev. Research 2, 033487](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033487)
 
 ## Read/Reading Documents
 
