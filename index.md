@@ -13,7 +13,7 @@ I am a graduate student working in Integrated Master & Ph. D. degree course of [
 [카이스트](https://www.kaist.ac.kr/kr/)의 [물리학과](https://physics.kaist.ac.kr/)에서 석박사 통합과정 재학중입니다.
 
 ## This blog
-이 블로그는 연구/공부 도중 얻은 지식들 중 기록하여 저장해두고자 하는 정보들을 기록하는 저장소이자, 부족한 한국어 기반 물리학-수학 텍스트를 보충하고자 하는 목적을 가진 실험적 공간입니다.
+이 블로그는 연구/공부 도중 얻은 지식들 중 기록하여 저장해두고자 하는 정보들을 기록하는 저장소이자, 부족한 한국어 기반 물리학-수학 텍스트를 보충하고자 하는 목적을 가진 실험적 공간이며, 개인적인 홍보의 공간이기도 합니다.
 
 수식 및 설명의 오류, 오개념, 명료하지 않은 서술, 부족한 서술, 다루기를 바라는 개념 등 제안사항은 Disqus 댓글을 달아주시거나 [트위터 계정](https://twitter.com/YGLENA)으로 알려주세요.
 
@@ -21,7 +21,15 @@ I am a graduate student working in Integrated Master & Ph. D. degree course of [
 
 ## Publications
 
-1. [Spin-helix driven insulating phase in two dimensional lattice, Phys. Rev. Research 2, 033487](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033487)
+1. [**Spin-helix driven insulating phase in two dimensional lattice**, Phys. Rev. Research 2, 033487](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033487). *<b>Haru K. Park</b>, Hyeok-Jun Yang, and SungBin Lee.*
+
+## Education
+
+- **Highschool course: Major in Physics** <sub> *Mar 2011 - Feb 2014*, [Korea Science Academy of KAIST (KSA)](https://www.ksa.hs.kr/), Busan, South Korea</sub>
+
+- **Bachelor of Science: Double major in Physics and Mathematical Sciences** <sub>*Mar 2014 - Aug 2018*, [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/kr/), Daejeon, South Korea</sub>
+
+- **Ph.d student: Physics department** <sub>*Sep 2018 - Present*, [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/kr/), Daejeon, South Korea<sub>
 
 ## Read/Reading Documents
 
