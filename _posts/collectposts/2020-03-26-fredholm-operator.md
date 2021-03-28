@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Functional analysis]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 ## 콤팩트 연산자
 바나흐 공간<sup>Banach space</sup> $E,F$와 유계 연산자 $T\in \mathcal{L}(E,F)$에 대하여, $\overline{T(B_E)}$가 $F$의 강한 위상<sup>strong topology</sup> 하에서 콤팩트<sup>compact</sup>할 때, $T$를 **콤팩트 연산자<sup>compact operator</sup>**라 한다. $B_E$는 $E$의 단위 공<sup>unit ball</sup>이다. $E$에서 $F$로 가는 콤팩트 연산자들의 집합을 $\mathcal{K}(E,F)$라 쓴다.
 

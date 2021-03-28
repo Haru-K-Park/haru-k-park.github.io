@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Homological algebra]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 ## 개요
 임의의 작은 아벨 범주<sup>small abelian category</sup> $\mathsf{A}$에 대하여, 프레이드-미첼 매장 정리<sup>Freyd-Mitchell embedding theorem</sup>는 어떤 환<sup>ring</sup> $R$이 존재하여 충실충만<sup>fully faithful</sup>하고 완전<sup>exact</sup>한 함자<sup>functor</sup> $F:\mathsf{A}\rightarrow R-\mathsf{Mod}$가 존재함을 보여 준다. 따라서 많은 경우 아벨 범주를 $R$-모듈이라고 가정하여 그 사상<sup>morphism</sup>이 대상<sup>object</sup>의 원소<sup>element</sup>들에 대하여 정의된다고 생각할 수 있다.
 

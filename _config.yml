@@ -1,16 +1,16 @@
 # Site settings
-title:          YGLENA
+title:          Haru
 description:    ""
 baseurl:        ""
-url:            "https://yglena.github.io"
+url:            "https://haru.k.park.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         YGLENA
-  twitter:      YGLENA
+  name:         Haru
+  twitter:      Haru
 
 # Build settings
 markdown:       kramdown

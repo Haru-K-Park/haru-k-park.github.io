@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Calculus]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 ## 베르누이 다항식과 베르누이 수
 **베르누이 다항식<sup>Bernoulli polynomials</sup>** $B_n(x)$이란 다음 생성함수를 통해 정의되는 다항식이다.
 

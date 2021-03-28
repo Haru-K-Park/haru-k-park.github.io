@@ -88,3 +88,7 @@ details > summary {
 details > summary::-webkit-details-marker {
   display: none;
 }
+
+details > summary:first-of-type {
+  list-style-type: none;
+}

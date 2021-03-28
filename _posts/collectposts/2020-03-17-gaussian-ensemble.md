@@ -6,8 +6,12 @@ comments: true
 tags: [Random matrix theory, Stastical physics]
 ---
 
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 
 ## 가우시안 앙상블
 **가우시안 앙상블<sup>Gaussian ensemble</sup>**이란, 가우시안 분포와 관련된 분포를 가지는 임의행렬<sup>random matrix</sup>을 말한다. 일반적으로 다음 세 가지 앙상블을 주로 논한다.

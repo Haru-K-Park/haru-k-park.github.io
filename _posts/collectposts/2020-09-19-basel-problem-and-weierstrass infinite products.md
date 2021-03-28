@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Calculus, Complex analysis]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 
 ## 바젤 문제
 > **바젤 문제<sup>Basel problem</sup>.** 다음이 성립한다.

@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Homological algebra]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 ## 정리
 >**호몰로지 긴 완전열<sup>Homology long exact sequence</sup>.** 아벨 범주<sup>Abelian category</sup> $\mathcal{C}$와 그 위의 사슬 복합체 범주 $\mathrm{Ch}_\bullet(\mathcal{C})$를 생각하자. 사슬 복합체 사이의 짧은 완전열
 >
@@ -52,7 +56,7 @@ $$
 $d:A_n/d(A_{n+1})\rightarrow d(A_{n-1})$의 핵<sup>kernel</sup>이 $Z_n/B_n=H_n(A)$이고 여핵<sup>cokernel</sup>이 $Z_{n-1}/B_{n-1}=H_{n-1}(A)$이므로, 뱀 보조정리를 다시 적용하면 명시된 긴 완전열을 얻는다. $\square$
 </details>
 
-# 코호몰로지
+## 코호몰로지
 주어진 증명에 쌍대를 취하면, 주어진 공사슬 복합체<sup>cochain complex</sup> 사이의 짧은 완전열
 
 $$
@@ -69,7 +73,7 @@ $$
 \end{CD}
 $$
 
-# 마이어-비토리스 열
+## 마이어-비토리스 열
 호몰로지 긴 완전열을 이용하면 공간 $X$의 호몰로지 군을 더 작은 공간 $A,B$와 그 교집합 $A\cap B$의 호몰로지 군으로 나타낼 수 있다. 즉, $A,B$가 $X$의 부분 공간이고, $A,B$의 내부<sup>interior</sup>가 $X$를 덮을 때, 다음이 긴 완전열이다.
 
 $$

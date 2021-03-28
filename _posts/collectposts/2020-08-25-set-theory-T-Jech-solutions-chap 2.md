@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Set theory, Problems and solutions]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 
 [T. Jech의 Set Theory](https://dio.org/10.1007/3-540-44761-X){:target="_blank"}
 ## 2.1.

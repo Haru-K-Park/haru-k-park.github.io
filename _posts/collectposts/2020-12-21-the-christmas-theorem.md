@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Number theory]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 
 ## 크리스마스 정리
 > **크리스마스 정리<sup>The Christmas Theorem</sup>.** 홀수 소수 $p$에 대해, $p$가 두 개의 제곱수의 합으로 나타내짐과, $p\equiv 1 \mod 4$임이 동치이다.

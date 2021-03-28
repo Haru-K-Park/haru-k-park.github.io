@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Quantum field theory]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 ## 개요
 1차원 상에서의 자유 스칼라 장<sup>free scalar field</sup>의 해밀토니안은 다음과 같이 쓸 수 있다.
 

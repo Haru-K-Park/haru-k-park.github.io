@@ -5,8 +5,12 @@ author: "YGLENA"
 comments: true
 tags: [Calculus]
 ---
-* 
+<details><summary>
+<span style="font-size:2em;">**목차**</span>
+</summary>
+* 목차
 {:toc}
+</details>
 ## 개요
 파인만 도형을 계산할 때, 전파자<sup>propagator</sup>가 관여하는 항이 $\frac{i}{p^2-m^2}$으로 쓰여지기 때문에 다음과 같은 적분이 빈번하게 등장한다.
 
