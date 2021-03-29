@@ -2,7 +2,7 @@
 layout: post
 title: "arXiv"
 author: "YGLENA"
-permalink: /arxiv
+permalink: /arxiv/
 ---
 
 ## 2021
