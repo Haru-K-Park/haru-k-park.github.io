@@ -31,7 +31,7 @@ $$
 이것이 다음을 만족함을 보이기만 하면 된다.
 
 $$
-(a+bi)\left((c+di)v\right)=\left((a+bi)(c+di))v
+(a+bi)\left((c+di)v\right)=\left((a+bi)(c+di)\right)v
 $$
 
 좌변의 경우,
@@ -80,10 +80,10 @@ $$
 <details><summary>**증명.**
 </summary>
 
-텐서곱의 정의에 의해, $v\in V^{\mathbb{C}}$는 유한합 $\sum_i v_i \otimes \alpha_i$로 써진다. $\alpha_i=a+b_i$일 때 이는 $\sum_i v_i\otimes a + \sum_i v_i\otimes bi$가 되고,
+텐서곱의 정의에 의해, $v\in V^{\mathbb{C}}$는 유한합 $\sum_i v_i \otimes \alpha_i$로 써진다. $\alpha_i=a_i+b_i i$일 때 이는 $\sum_i v_i\otimes a_i + \sum_i v_i\otimes b_i i$가 되고,
 
 $$
-v_r\equiv \sum_i av_i,\quad v_{im}\equiv \sum_i bv_i
+v_r\equiv \sum_i a_iv_i,\quad v_{im}\equiv \sum_i b_iv_i
 $$
 
 로 정의하면 $v=v_r\otimes 1+v_{im}\otimes i$가 된다.
@@ -93,7 +93,7 @@ $$
 >실수 벡터 공간 $V$의 자기 자신에 대한 직합 $V\oplus V$를 생각하고, 이 위에서 다음과 같이 정의된 선형 연산자를 생각하자.
 >
 >$$
-J(v,w)=-(w,v),\quad \forall v,w\in V
+J(v,w)=(-w,v),\quad \forall v,w\in V
 >$$
 >
 >그렇다면 $J$는 $V\oplus V$ 위에서 정의된 선형 복소 구조이다.
