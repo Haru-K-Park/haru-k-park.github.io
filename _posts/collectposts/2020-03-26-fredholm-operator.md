@@ -6,7 +6,7 @@ comments: true
 tags: [Functional analysis]
 ---
 <details><summary>
-<span style="font-size:2em;">**목차**</span>
+<span style="font-size:2em;font-family: Helvetica;">**목차**</span>
 </summary>
 * 목차
 {:toc}

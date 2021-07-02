@@ -11,9 +11,14 @@ $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
 // Fonts
-$serif-primary: "Nanum Myeongjo",sans-serif;
-$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: "Source Sans Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  src: url('../../font/NanumMyeongjo.ttf') format('truetype');
+}
+
+$Palatino: Palatino, "Nanum Myeongjo";
+$serif-secondary: Palatino, serif;
+$Helvetica: Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
 $monospaced: Menlo, Monaco, monospace;
 
 @mixin box-sizing($type: border-box) {
