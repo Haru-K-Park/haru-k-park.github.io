@@ -5,7 +5,7 @@ author: "YGLENA"
 ---
 
 *Baby, Please Kill Me.*{: .centerthetext}
-![Header](/images/header.png){: width="50%" height="50%"0}{: .center}{: .backgrounddarkblue}
+![Header](/images/header.png){: width="100%" height="100%"0}{: .center}{: .backgrounddarkblue}
 *Image drawn by [Piraco](https://twitter.com/funa_majin)*
 
 I am a graduate student working in Integrated Master & Ph. D. degree course of [physics department](https://physics.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/kr/). She/Her.
