@@ -4,6 +4,7 @@ title: "바젤 문제와 바이어슈트라스 무한곱"
 author: "YGLENA"
 comments: true
 tags: [Calculus, Complex analysis]
+redirect_from: /basel-problem
 ---
 <details><summary>
 <span style="font-size:2em;font-family: Helvetica;">**목차**</span>
