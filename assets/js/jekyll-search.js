@@ -355,7 +355,7 @@
     
       window.SimpleJekyllSearch = function (_options) {
         var search = simpleJekyllSearch(_options)
-        options.success.call(search)
+        _options.success.call(search)
         return search
       }
     
