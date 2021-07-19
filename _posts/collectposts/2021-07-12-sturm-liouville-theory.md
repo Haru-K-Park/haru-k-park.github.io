@@ -33,12 +33,7 @@ $$
 ## 스튀름-리우빌 정리
 
 > **스튀름-리우빌 정리.** 정규 스튀름-리우빌 방정식에 대하여, 다음이 성립한다.
-> 1. 정규 스튀름-리우빌 방정식을 만족시키는 고유값들 $\lambda_0,\cdots,\lambda_n,\cdots$는 모두 실수이며, 다음과 같이 번호매겨질 수 있다.
-> 
-> $$
-> \lambda_0<\lambda_1<\cdots < \lambda_n < \cdots \rightarrow \infty
-> $$
->
+> 1. 정규 스튀름-리우빌 방정식을 만족시키는 고유값들 $\lambda_0,\cdots,\lambda_n,\cdots$는 모두 실수이며, $\lambda_0<\lambda_1<\cdots < \lambda_n < \cdots \rightarrow \infty$와 같이 번호매겨질 수 있다.
 > 2. 각각의 고유값 $\lambda_n$에 대하여, 상수 배 하에서 유일한 고유 함수 $y_n(x)$이 존재하고, 이것이 구간 $(a,b)$ 사이에서 $n$개의 영점을 가진다.
 > 3. 정규화<sup>normalized</sup>된 고유 함수들은 $w$-가중 내적 위에서 정규 직교 기저<sup>orthonormal basis</sup>를 이룬다. 즉, 다음이 성립한다.
 >
@@ -123,7 +118,7 @@ $\alpha_1=0$이라면 $\gamma=\pi/2$로 둘 수 있다.
 원 식에서 다음을 얻는다.
 
 $$
-\left.\frac{d\theta(x,\lambda)}{dx}\rvert_{x_n}=\frac{1}{p(x_n)}>0
+\left.\frac{d\theta(x,\lambda)}{dx}\right\rvert_{x_n}=\frac{1}{p(x_n)}>0
 $$
 
 따라서 $x>x_n$에서 $\theta(x,\lambda)$의 값은 $\theta(x_n,\lambda)$보다 항상 크다. $\square$
@@ -224,7 +219,7 @@ $$
 
 이 때, $0\leq \gamma < \pi$는 $p(a)\tan(\gamma)=-\alpha_2/\alpha_1$을 만족시키는 가장 작은 $\gamma$이고, $0<\delta\leq \pi$는 $p(b)\tan(\delta)=-\beta_2/\beta_1$을 만족시키는 가장 작은 $\delta$이다. $\alpha_1=0$이면 $\gamma=\pi/2$로 두고, $\beta_1=0$이면 $\delta=\pi/2$로 둔다.
 
-프뤼퍼 방정식을 만족시키는 $\theta(x,\lambda)$의 초기조건이 $\theta(a,\lambda)=\gamma$라 하자. $\theta(b,\lambda)$가 $\lambda$에 대하여 강한 단조 증가 함수이고 $\theta(b,\lambda)>0$이므로, $\lambda$는 $-\inf$에서 서서히 증가하여 $\theta(b,\lambda_0)=\delta$를 만족시키는 $\lambda_0$를 얻는다. 이를 반복하여 $\theta(b,\lambda_n)=\delta+n\pi$를 만족시키는 $\lambda_n$의 순열을 찾을 수 있고, 이는 $n\rightarrow \infty$에서 무한으로 발산한다. 또한 고정된 $\lambda_n$에 대하여, 스튀름-리우빌 방정식의 해 $y(x)=r(x)\sin\theta(x,\lambda_n)$은 $n$개의 해를 가진다. $\square$
+프뤼퍼 방정식을 만족시키는 $\theta(x,\lambda)$의 초기조건이 $\theta(a,\lambda)=\gamma$라 하자. $\theta(b,\lambda)$가 $\lambda$에 대하여 강한 단조 증가 함수이고 $\theta(b,\lambda)>0$이므로, $\lambda$는 $-\infty$에서 서서히 증가하여 $\theta(b,\lambda_0)=\delta$를 만족시키는 $\lambda_0$를 얻는다. 이를 반복하여 $\theta(b,\lambda_n)=\delta+n\pi$를 만족시키는 $\lambda_n$의 순열을 찾을 수 있고, 이는 $n\rightarrow \infty$에서 무한으로 발산한다. 또한 고정된 $\lambda_n$에 대하여, 스튀름-리우빌 방정식의 해 $y(x)=r(x)\sin\theta(x,\lambda_n)$은 $n$개의 해를 가진다. $\square$
 
 </details>
 
@@ -289,7 +284,7 @@ $\sum_{i=1}^k \langle v,\phi_k\rangle^2$는 베셀 부등식에 의해 수렴하
 > \sum_{i=1}^\infty \lVert \psi_i-\phi_i\rVert^2<1
 >$$
 >
-> 그러면 $\{\psi_i\}$ 또한 가산 정규 직교 집합이다.
+> 그러면 $\{\psi_i\}$ 또한 가산 정규 직교 기저이다.
 
 <details><summary>**증명.**
 </summary>
@@ -343,7 +338,7 @@ $$
 
 </details>
 
-> 위의 조건을 만족시키는 $\{\phi_i\}$와 $\{psi_i\}$에 대하여, 다음을 정의하자.
+> 위의 조건을 만족시키는 $\{\phi_i\}$와 $\{\psi_i\}$에 대하여, 다음을 정의하자.
 >
 >$$
 > \eta_i=\phi_i-\sum_{k=n+1}^\infty \langle \phi_i \psi_k\rangle \psi_k
@@ -357,7 +352,7 @@ $$
 그러한 $v$에 대해 다음이 성립한다.
 
 $$
-\langle v,\phi_i\rangle = \langle v,\eta_i+\sum_{k=N+1}^\infty \langle \phi_i,\psi_k \rangle\langle v,\psi_k\rangle = 0
+\langle v,\phi_i\rangle = \langle v,\eta_i\rangle+\sum_{k=N+1}^\infty \langle \phi_i,\psi_k \rangle\langle v,\psi_k\rangle = 0
 $$
 
 따라서 이는 위의 조건과 같아진다. $\square$
