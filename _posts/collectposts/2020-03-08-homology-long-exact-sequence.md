@@ -31,7 +31,7 @@ tags: [Homological algebra]
 <details><summary>**증명.**
 </summary> 
 
-[뱀 보조정리<sup>snake Lemma</sup>](https://yglena.github.io/2020-03-08/snake-lemma)와 프레이드-미첼 매장 정리<sup>Freyd-Mitchell embedding theorem</sup>를 이용한다. $R-\mathrm{mod}$ 위의 사슬 복합체 사이의 짧은 완전열에서 다음 그림을 그릴 수 있다.
+[뱀 보조정리<sup>snake Lemma</sup>](https://haru-k-park.github.io/2020-03-08/snake-lemma)와 프레이드-미첼 매장 정리<sup>Freyd-Mitchell embedding theorem</sup>를 이용한다. $R-\mathrm{mod}$ 위의 사슬 복합체 사이의 짧은 완전열에서 다음 그림을 그릴 수 있다.
 
 $$
 \require{AMScd}\begin{CD}
