@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gap Labelling Theorem"
+title: "Gap Labeling Theorem"
 comments: true
 tags: [Algebra]
 redirect_from: /gap-labelling-theorem
@@ -12,7 +12,7 @@ redirect_from: /gap-labelling-theorem
 {:toc}
 </details>
 
-Suppose that there is a gap on some Hamiltonian. Naturally, this gap separates the states with their eigenenergies below and above the gap, and thus we can correlate the gap by the projection operator $p$:
+&ensp;Suppose that there is a gap on some Hamiltonian. Naturally, this gap separates the states with their eigenenergies below and above the gap, and thus we can correlate the gap by the projection operator $p$:
 
 $$
 p=p^*=p^2.
