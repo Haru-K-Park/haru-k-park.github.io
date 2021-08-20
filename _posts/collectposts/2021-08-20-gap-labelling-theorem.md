@@ -17,3 +17,7 @@ redirect_from: /gap-labelling-theorem
 $$
 p=p^*=p^2.
 $$
+
+There is an equivalence relation between two projections in a $C^*$-algebra $A$.
+
+> **Definition.** Let $p,q$ be projection operators. Then we  say $p$ and $q$ are **Murray-von Neumann equivalent**, writing $p\sim q$, if there is $u\in A$ such that $p=u^* u$ and $q=uu^*$.
