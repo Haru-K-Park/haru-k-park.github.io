@@ -4,9 +4,9 @@ permalink: /notes/
 title: Notes
 ---
 <details><summary>
-**Table of Contents**
+<span style="font-size:2em;font-family: Helvetica;">**Contents**</span>
 </summary>
-* Table of Contents
+* Contents
 {:toc}
 </details>
 
