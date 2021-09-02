@@ -26,11 +26,3 @@ Here the parameter $m$, called "mass", is real, and $s=\pm 1$. We may set $\vec{
 Notice that the Hamiltonian $\hat{H}$ has both the chiral symmetry $\{\hat{H},\hat{\sigma}_y\}=0$ and $\mathcal{PT}$-symmetry when we consider $\mathcal{P}$ the reflection $x\rightarrow -x$.
 
 Now, the eigenvalues of $\hat{H}$ are $\lambda^\pm = \pm\sqrt{m^2+(k_x-isk_y)^2}$ with eigenvectors $\psi=\begin{bmatrix} 1 \\ B_y/(B_x+\lambda^\pm)\end{bmatrix}$.
-
-<script src="https://utteranc.es/client.js"
-        repo="[ENTER REPO HERE]"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
