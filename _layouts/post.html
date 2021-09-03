@@ -35,13 +35,15 @@ layout: default
   {{ content }}
 </div>
 
-<script src="https://utteranc.es/client.js"
-        repo="Haru-K-Park/haru-k-park.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+{% if page.comments %}
+  <script src="https://utteranc.es/client.js"
+  repo="Haru-K-Park/haru-k-park.github.io"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+  </script>
+{% endif %}
 
 <div class="pagination">
   {% if page.next.url %}
