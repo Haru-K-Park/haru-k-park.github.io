@@ -7,11 +7,11 @@ I am a graduate student working in Integrated Master & Ph. D. degree course of [
 
 ## Publications
 
-1. [**Spin-helix driven insulating phase in two dimensional lattice**, Phys. Rev. Research 2, 033487](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033487). *<b>Haru K. Park</b>, Hyeok-Jun Yang, and SungBin Lee.*
+* [**Spin-helix driven insulating phase in two dimensional lattice**, Phys. Rev. Research 2, 033487](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033487). *<b>Haru K. Park</b>, Hyeok-Jun Yang, and SungBin Lee.*
 
-2. [**Controllable Floquet edge modes in a multifrequency driving system**, Phys. Rev. B 107, 085141](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.085141). *<b>Haru K. Park</b>, Junmo Jeon, Gil Young Cho, and SungBin Lee.*
+* [**Controllable Floquet edge modes in a multifrequency driving system**, Phys. Rev. B 107, 085141](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.085141). *<b>Haru K. Park</b>, Junmo Jeon, Gil Young Cho, and SungBin Lee.*
 
-3. [**Subharmonic fidelity revival in a driven PXP model**, arXiv:2301.00020](https://arxiv.org/abs/2301.00020). *<b>Haru K. Park</b> and SungBin Lee.*
+* [**Subharmonic fidelity revival in a driven PXP model**, arXiv:2301.00020](https://arxiv.org/abs/2301.00020). *<b>Haru K. Park</b> and SungBin Lee.*
 
 ## Education
 
