@@ -11,7 +11,7 @@ I am a graduate student working in Integrated Master & Ph. D. degree course of [
 
 * [**Controllable Floquet edge modes in a multifrequency driving system**, Phys. Rev. B 107, 085141](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.085141). *<b>Haru K. Park</b>, Junmo Jeon, Gil Young Cho, and SungBin Lee.*
 
-* [**Subharmonic fidelity revival in a driven PXP model**, arXiv:2301.00020](https://arxiv.org/abs/2301.00020). *<b>Haru K. Park</b> and SungBin Lee.*
+* [**Subharmonic fidelity revival in a driven PXP model**,  Phys. Rev. B 107, 205142](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.205142). *<b>Haru K. Park</b> and SungBin Lee.*
 
 ## Education
 
