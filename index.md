@@ -3,7 +3,8 @@ layout: post
 title: "About"
 author: "HaRu K. Park"
 ---
-I am a graduate student working in Integrated Master & Ph. D. degree course of [physics department](https://physics.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/kr/). She/Her.
+
+I am a Ph.D. student in the [Physics Department](https://physics.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/kr/). If a pronoun is needed, please use She/Her.
 
 ## Publications
 
